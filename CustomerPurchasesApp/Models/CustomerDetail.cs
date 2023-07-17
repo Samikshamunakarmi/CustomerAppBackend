@@ -11,12 +11,12 @@ namespace CustomerPurchasesApp.Models
 
         [StringLength(100)]
         [Required(ErrorMessage =" The First-Name should not be blank")]
-        [RegularExpression(@"^[A-Z][a-z]+$", ErrorMessage = " The First-Name should start with capital alphabet")]
+        [RegularExpression(@"^[A-Za-z]+$", ErrorMessage = " The First-Name should be alphabet")]
         public string First_Name { get; set; }
 
         [StringLength(100)]
         [Required(ErrorMessage = "The Last-Name should not be blank")]
-        [RegularExpression(@"^[A-Z][a-z]+$", ErrorMessage = " The Last-Name should start with capital alphabet")]
+        [RegularExpression(@"^[A-Za-z]+$", ErrorMessage = " The Last-Name should be alphabet")]
 
         public string Last_Name { get; set; }
 
