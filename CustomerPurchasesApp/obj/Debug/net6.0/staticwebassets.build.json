@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Eway7Pvqio2QvVFcrWWNhC40+hR7ll5BGZZal5IDNfM=",
+  "Source": "CustomerPurchasesApp",
+  "BasePath": "_content/CustomerPurchasesApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
